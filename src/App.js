@@ -17,8 +17,8 @@ const App = () => {
         <li key={index}>
           <a href={item.link}>
             <date>{item.date}</date>
-            <p>{item.title.rendered}</p>
-            <p>{item.content.rendered}</p>
+            <h2>{item.title.rendered}</h2>
+            <div>{item.content.rendered}</div>
           </a>
         </li>
       ))}
